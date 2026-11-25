@@ -1,0 +1,38 @@
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+myenv/
+.venv/
+
+# Local databases and runtime files
+*.db
+*.sqlite3
+*.log
+
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/out/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Setup guide with secrets
+NEW_LAPTOP_SETUP.md
+
+# Coverage / build
+coverage/
+dist/
+build/
